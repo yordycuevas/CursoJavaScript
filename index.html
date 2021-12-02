@@ -1,15 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Figure geometry</title>
-  </head>
 
-  <body>
-    <h1>Figure geometry</h1>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Figure geometry</title>
+</head>
 
-    <script src="figuras.js"></script>
-  </body>
+<body>
+  <header>
+
+    <h1>
+      Figure geometry
+    </h1>
+
+    <p>Curso practico de Javascript</p>
+  </header>
+
+  <section>
+
+    <h2>Calcula un area y perimetro de un cuadrado</h2>
+
+    <form>
+      <label for="inputCuadrado" >
+        Escribe cuánto mide cada lado de tu cuadrado:
+      </label>
+
+      <input id="inputCuadrado" type="number">
+
+      <Button type="button" onClick="calcularPerimetroCuadrado()">
+        Calcula el perimetro
+      </Button>
+
+      <Button type="button" onClick="calculalAreaCuadrado()">
+        Calcula el area
+      </Button>
+
+      </label>
+
+    </form>
+  </section>
+
+
+
+
+  <script src="figuras.js"></script>
+</body>
+
 </html>
