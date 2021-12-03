@@ -116,22 +116,38 @@ function areaCirculo(radio) {
   return radio * radio * PI;
 }
 
-function calcularPerimetroCuadrado(){
+// funtions in Html Quadrate
 
+function calcularPerimetroCuadrado() {
   const input = document.getElementById("inputCuadrado");
   const value = input.value;
 
   const perimetro = perimetroCuadrado(value);
-alert(perimetro);
-
+  alert(perimetro);
 }
 
-function calculalAreaCuadrado(){
-
+function calculalAreaCuadrado() {
   const input = document.getElementById("inputCuadrado");
   const value = input.value;
 
   const area = areaCuadrado(value);
-alert(area);
+  alert(area);
+}
 
+// funtions in Html Circle
+
+function calcularPerimetroCirculo() {
+  const input = document.getElementById("inputCircle");
+  const value = input.value;
+
+  const perimetro = perimetroCirculo(value);
+  alert(perimetro);
+}
+
+function calculalAreaCircle() {
+  const input = document.getElementById("inputCircle");
+  const value = input.value;
+
+  const area = areaCirculo(value);
+  alert(area);
 }

@@ -78,7 +78,8 @@ function perimetroCirculo(radio) {
 
 function areaCirculo(radio) {
   return radio * radio * PI;
-}
+} // funtions in Html Quadrate
+
 
 function calcularPerimetroCuadrado() {
   var input = document.getElementById("inputCuadrado");
@@ -91,5 +92,20 @@ function calculalAreaCuadrado() {
   var input = document.getElementById("inputCuadrado");
   var value = input.value;
   var area = areaCuadrado(value);
+  alert(area);
+} // funtions in Html Circle
+
+
+function calcularPerimetroCirculo() {
+  var input = document.getElementById("inputCircle");
+  var value = input.value;
+  var perimetro = perimetroCirculo(value);
+  alert(perimetro);
+}
+
+function calculalAreaCircle() {
+  var input = document.getElementById("inputCircle");
+  var value = input.value;
+  var area = areaCirculo(value);
   alert(area);
 }
