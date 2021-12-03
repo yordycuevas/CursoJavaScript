@@ -5,39 +5,112 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap" rel="stylesheet">
+  <link href="./css/style.css" rel="stylesheet" type="text/css" />
   <title>Figure geometry</title>
 </head>
 
 <body>
-  <header>
+  <header class="header">
 
-    <h1>
-      Figure geometry
+    <h1 class="title">
+      Geometry Figures
     </h1>
+    <div class="description">
 
-    <p>Curso practico de Javascript</p>
+      <p class="sub-title">Class of Javascript</p>
+
+
+      <img class="img-responsive"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
+        alt="" />
+    </div>
+
   </header>
 
   <section>
 
-    <h2>Calcula un area y perimetro de un cuadrado</h2>
-
     <form>
-      <label for="inputCuadrado" >
-        Escribe cuánto mide cada lado de tu cuadrado:
+      <label for="inputCuadrado">
+
+        <section class="main-container">
+          <div class="cards-container">
+
+
+            <div class="geometry-card">
+              <h2 class="title-card">Calculate the area and perimeter of quadrate</h2>
+
+              <img src="https://i.pinimg.com/564x/75/cc/0e/75cc0e31441dd6b2692fd9bf494722a6.jpg" alt="Cuadrado"
+                class="product" />
+              <div class="geometry-info">
+                <div class="geometry-info-description">
+                  <p> Write how long each of your quadrate:
+                  </p>
+
+                </div>
+              </div>
+
+
+              <div class="buttons-group">
+
+                <input id="inputCuadrado" type="number">
+                <!-- <input id="inputCuadrado" type="color"> -->
+
+
+                <Button type="button" onClick="calcularPerimetroCuadrado()">
+                  Calculate the perimeter
+                </Button>
+
+                <Button type="button" onClick="calculalAreaCuadrado()">
+                  Calculate the area
+                </Button>
+
       </label>
+      </div>
+      </label>
+      </div>
 
-      <input id="inputCuadrado" type="number">
+      <label for="inputCuadrado">
 
-      <Button type="button" onClick="calcularPerimetroCuadrado()">
-        Calcula el perimetro
-      </Button>
+        <section class="main-container">
+          <div class="cards-container">
 
-      <Button type="button" onClick="calculalAreaCuadrado()">
-        Calcula el area
-      </Button>
+
+            <div class="geometry-card">
+              <h2 class="title-card">Calculate the area and perimeter of quadrate</h2>
+
+              <img src="https://i.pinimg.com/564x/75/cc/0e/75cc0e31441dd6b2692fd9bf494722a6.jpg" alt="Cuadrado"
+                class="product" />
+              <div class="geometry-info">
+                <div class="geometry-info-description">
+                  <p> Write how long each of your quadrate:
+                  </p>
+
+                </div>
+              </div>
+
+
+              <div class="buttons-group">
+
+                <input id="inputCuadrado" type="number">
+                <!-- <input id="inputCuadrado" type="color"> -->
+
+
+                <Button type="button" onClick="calcularPerimetroCuadrado()">
+                  Calculate the perimeter
+                </Button>
+
+                <Button type="button" onClick="calculalAreaCuadrado()">
+                  Calculate the area
+                </Button>
 
       </label>
+      </div>
+      </label>
+      </div>
+
 
     </form>
   </section>
