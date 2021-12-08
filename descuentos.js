@@ -1,4 +1,4 @@
-/* // precios y descuentos
+// precios y descuentos
 
 // const originalPrice = 120;
 // const discount = 18;
@@ -11,16 +11,16 @@ function calculateDiscountedPrice(price, discount) {
 }
 
 function onClickButtonPriceDiscount() {
-  const inputPrice = document.getElementById("inputPrice");
+  const inputPrice = document.getElementById("InputPrice");
   const priceValue = inputPrice.value;
 
-  const inputDiscount = document.getElementById("inputDiscount");
+  const inputDiscount = document.getElementById("InputDiscount");
   const discountValue = inputDiscount.value;
 
   const priceWithDiscount = calculateDiscountedPrice(priceValue, discountValue);
 
   const priceResult = document.getElementById("PriceResult");
-  priceResult.innerText = "The discounted price are $" + priceWithDiscount;
+  priceResult.innerText = "The discounted price are $" + priceWithDiscount + " Dollars" ;
 }
 
 /* 
@@ -33,35 +33,3 @@ console.log({
 });
  */
 
-
-// const precioOriginal = 120;
-// const descuento = 18;
-
-
-function calcularPrecioConDescuento(precio, descuento) {
-    const porcentajePrecioConDescuento = 100 - descuento;
-    const precioConDescuento = (precio * porcentajePrecioConDescuento) / 100;
-  
-    return precioConDescuento;
-  }
-  
-  function onClickButtonPriceDiscount() {
-    const inputPrice = document.getElementById("InputPrice");
-    const priceValue = inputPrice.value;
-    
-    const inputDiscount = document.getElementById("InputDiscount");
-    const discountValue = inputDiscount.value;
-  
-    const precioConDescuento = calcularPrecioConDescuento(priceValue, discountValue);
-  
-    const resultP = document.getElementById("ResultP");
-    resultP.innerText = "El precio con descuento son: $" + precioConDescuento;
-  }
-  
-  
-  // console.log({
-  //   precioOriginal,
-  //   descuento,
-  //   porcentajePrecioConDescuento,
-  //   precioConDescuento,
-  // });
