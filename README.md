@@ -17,3 +17,9 @@ Proceso de creación
 3. Crear funciones y JavaScript
 4. Interactuar con JS en Html
 
+#Taller 3 Mean, median and mode
+
+1. Define the formulas
+2. Implement the formulas in JavaScript
+3. Create functions
+4. Integrate JavaScript with HTML
